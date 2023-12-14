@@ -1,0 +1,31 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    jekyll-latex (1.2.0)
+      polytexnic (~> 1.8)
+    json (2.3.1)
+    kramdown (2.4.0)
+      rexml
+    mini_portile2 (2.8.5)
+    msgpack (1.2.10)
+    nokogiri (1.13.10)
+      mini_portile2 (~> 2.8.0)
+      racc (~> 1.4)
+    polytexnic (1.8.1)
+      json (= 2.3.1)
+      kramdown (= 2.4.0)
+      msgpack (= 1.2.10)
+      nokogiri (= 1.13.10)
+      pygments.rb (~> 2.3.1)
+    pygments.rb (2.3.1)
+    racc (1.7.3)
+    rexml (3.2.6)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  jekyll-latex
+
+BUNDLED WITH
+   1.17.2
